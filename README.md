@@ -33,4 +33,4 @@ Lo hacemos utilizando el conocimiento de los dos primeros ejercicios. Primero ge
 
 Luego entrenamos una GAN con diferentes topologías y conjuntos de datos. Y puedes ver los resultados. Utilizamos datos y modelos simplificados para un rápido rendimiento de los experimentos. Y vemos qué enfoque da mejores resultados para usar en futuro. El enfoque que usamos en mnist. Experimentamos con datos más simples para resolver problemas más serios más rápido.
 
-* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/blob/master/cifar.ipynb) - generatión de las caras de GAN
+* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/blob/master/gan_try.ipynb) - generatión de las caras de GAN
