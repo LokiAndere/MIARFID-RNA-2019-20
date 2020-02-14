@@ -9,7 +9,7 @@ Entonces comenzamos a experimentar. Usamos un tamaño de convolución de 2x2 y o
 Otra topología con convolución 3x3 3x3 5x5 dio el mismo resultado. 0.9942. También utilizamos la normalización y dropout y nuestra propia función de tasa de aprendizaje. Pero los resultados se obtuvieron incluso antes de su uso. 45 épocas. 
 Experimentamos con una topología más y nos detuvimos. 0,9858
 
-* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/blob/master/Copy_of_MNIST.ipynb) - problema de MNIST
+* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/blob/master/Copy_of_MNIST.ipynb) - Problema de MNIST
 
 
 ### Ejercicio 2 
@@ -21,7 +21,7 @@ Usamos normalización y centración que están construidos en keras. Debe mencio
 
 Luego comenzamos a experimentar con la topología. Construimos VGG9 improvisado. 0.9024 pero una gran cantidad de variables. Así que tratamos de construirlo deepwise. El resultado fue bajo pero posible. En este momento dejamos de experimentar. 
 
-* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/blob/master/cifar.ipynb) - problema de CIFAR
+* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/blob/master/cifar.ipynb) - Problema de CIFAR
 
 
 ### Proyecto 
@@ -29,8 +29,13 @@ Hemos construido una GAN para la generación de las caras.
 
 Lo hacemos utilizando el conocimiento de los dos primeros ejercicios. Primero generamos nuestro propio conjunto de datos. De 50 fotos hacemos 4321 y 2450 fotos con más o menos aumentación.
 
-* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/blob/master/genface.ipynb) - generatión de los datos para entrenar
+* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/blob/master/genface.ipynb) - Generatión de los datos para entrenar
 
 Luego entrenamos una GAN con diferentes topologías y conjuntos de datos. Y puedes ver los resultados. Utilizamos datos y modelos simplificados para un rápido rendimiento de los experimentos. Y vemos qué enfoque da mejores resultados para usar en futuro. El enfoque que usamos en mnist. Experimentamos con datos más simples para resolver problemas más serios más rápido.
 
-* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/blob/master/gan_try.ipynb) - generatión de las caras de GAN
+* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/blob/master/gan_try.ipynb) - Generatión de las caras de GAN
+
+
+### Los modelos
+
+* [GitHub](https://github.com/LokiAndere/MIARFID-RNA-2019-20/tree/master/GANmodels) - Aquí los modelos están disponibles para descargar
